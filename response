@@ -42,8 +42,8 @@ vary:  Origin, X-Origin
    "numberVotingFor": "1",
    "candidates": [
     {
-     "name": "Hillary Clinton/Tim Kaine",
-     "party": "Democratic Party"
+     "name": "string",
+     "party": "string"
     },
     {
      "name": "Donald J. Trump/Michael R. Pence",
