@@ -1,0 +1,236 @@
+
+cache-control:  private, max-age=0, must-revalidate, no-transform
+content-encoding:  gzip
+content-length:  1003
+content-type:  application/json; charset=UTF-8
+date:  Sun, 09 Oct 2016 19:52:52 GMT
+etag:  "-jLFVZxrcog1pcP3AdaNehv3d3w/b50EYQTNPMo6EHMRuJjT8a7ol48"
+expires:  Sun, 09 Oct 2016 19:52:52 GMT
+server:  GSE
+vary:  Origin, X-Origin
+ 
+{
+ "kind": "civicinfo#voterInfoResponse",
+ "election": {
+  "id": "5000",
+  "name": "US 2016 General Election",
+  "electionDay": "2016-11-08",
+  "ocdDivisionId": "ocd-division/country:us"
+ },
+ "normalizedInput": {
+  "line1": "",
+  "city": "",
+  "state": "",
+  "zip": ""
+ },
+ "contests": [
+  {
+   "type": "General",
+   "office": "U.S. President/U.S. Vice President",
+   "level": [
+    "country"
+   ],
+   "roles": [
+    "headOfGovernment"
+   ],
+   "district": {
+    "name": "",
+    "scope": "statewide",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:sc"
+   },
+   "numberElected": "1",
+   "numberVotingFor": "1",
+   "candidates": [
+    {
+     "name": "Hillary Clinton/Tim Kaine",
+     "party": "Democratic Party"
+    },
+    {
+     "name": "Donald J. Trump/Michael R. Pence",
+     "party": "Republican Party"
+    },
+    {
+     "name": "Darrell Castle/Scott Bradley",
+     "party": "Constitution Party"
+    },
+    {
+     "name": "Evan McMullin/Nathan Johnson",
+     "party": "Independence Party"
+    },
+    {
+     "name": "Jill Stein/Ajamu Baraka",
+     "party": "Green Party"
+    },
+    {
+     "name": "Gary Johnson/Bill Weld",
+     "party": "Libertarian Party"
+    },
+    {
+     "name": "Peter Skewes/Michael Lacy",
+     "party": "American Party"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "U.S. Senator",
+   "level": [
+    "country"
+   ],
+   "roles": [
+    "legislatorUpperBody"
+   ],
+   "district": {
+    "name": "South Carolina",
+    "scope": "statewide",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:sc"
+   },
+   "numberElected": "1",
+   "numberVotingFor": "1",
+   "candidates": [
+    {
+     "name": "Bill Bledsoe",
+     "party": "Libertarian Party"
+    },
+    {
+     "name": "Thomas Dixon",
+     "party": "Democratic Party"
+    },
+    {
+     "name": "Tim Scott",
+     "party": "Republican Party"
+    },
+    {
+     "name": "Jim Hinkle",
+     "party": "American Party"
+    },
+    {
+     "name": "Rebel Michael Scarborough",
+     "party": "American Party"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "U.S. Representative",
+   "level": [
+    "country"
+   ],
+   "roles": [
+    "legislatorLowerBody"
+   ],
+   "district": {
+    "name": "South Carolina's 5th congressional district",
+    "scope": "congressional",
+    "id": "5",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:sc/cd:5"
+   },
+   "numberElected": "1",
+   "numberVotingFor": "1",
+   "candidates": [
+    {
+     "name": "Fran Person",
+     "party": "Democratic Party"
+    },
+    {
+     "name": "Mick Mulvaney",
+     "party": "Republican Party"
+    },
+    {
+     "name": "Rudy Barnes Jr",
+     "party": "American Party"
+    },
+    {
+     "name": "Larry Gaither",
+     "party": "American Party"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "SC State Senator",
+   "level": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "legislatorUpperBody"
+   ],
+   "district": {
+    "name": "South Carolina State Senate district 17",
+    "scope": "stateUpper",
+    "id": "17",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:sc/sldu:17"
+   },
+   "numberElected": "1",
+   "numberVotingFor": "1",
+   "candidates": [
+    {
+     "name": "Creighton B Coleman",
+     "party": "Democratic Party"
+    },
+    {
+     "name": "Mike Fanning",
+     "party": "Democratic Party"
+    },
+    {
+     "name": "Mark Palmer",
+     "party": "Republican Party"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "SC State Representative",
+   "level": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "legislatorLowerBody"
+   ],
+   "district": {
+    "name": "South Carolina State House district HD-043",
+    "scope": "stateLower",
+    "id": "43",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:sc/sldl:43"
+   },
+   "numberElected": "1",
+   "numberVotingFor": "1",
+   "candidates": [
+    {
+     "name": "Greg Delleney",
+     "party": "Republican Party"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  }
+ ]
+}
