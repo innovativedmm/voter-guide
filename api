@@ -1,1 +1,1 @@
-GET https://www.googleapis.com/civicinfo/v2/voterinfo?address=3003+pInetuck+Lane+Rock+Hill%2C+SC+29730&key={YOUR_API_KEY}
+GET https://www.googleapis.com/civicinfo/v2/voterinfo?address=3003+pInetuck+Lane+Rock+Hill%2C+SC+29730&key={AIzaSyAGV6nN6dJXIKA8oaRpC2QgcAar6f61TYY}
